@@ -1,0 +1,22 @@
+  
+.footer-area{
+    background-image: url('https://media.istockphoto.com/vectors/abstract-plexus-background-with-connecting-dots-and-lines-global-vector-id1165864106?k=6&m=1165864106&s=612x612&w=0&h=h9VZyea78xwAQiMFLUCBQ7lEW6aU7KjEQe8LRwYEvxk=');
+    background-size: cover;
+}
+
+.footer-area li{
+    padding-bottom: 10px;
+}
+
+.social-media .icon{
+    height: 40px;
+    width: 40px;
+    color: #1cc7c1;
+    border-radius: 50%;
+    border: 1px solid #6ACECE;
+    padding: 10px;
+}
+.social-media .active-icon{
+    background-color: #6ACECE ;
+    color:white;
+}

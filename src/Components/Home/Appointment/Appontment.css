@@ -1,0 +1,31 @@
+.make-appointment{
+    background-image: url('../../../images/appont.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 420px;
+    background-position: center center;
+    margin-top: 70px;
+    margin-left: 200px;
+    z-index: -1000;
+}
+
+.make-appointment::before{
+    content:  "";
+    display: block;
+    width: 87%;
+    height: 100%;
+    position: absolute;
+    background: rgb(36, 41, 73);
+    opacity: .8;
+    top: 0;
+    margin-right: 237px;
+}
+.text-container{
+    z-index: 1000;
+}
+
+.make-appointment img{
+    height: 550px;
+    transform: translateY(-130px);
+}
